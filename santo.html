@@ -1,0 +1,171 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Santorini</title>
+<link rel="stylesheet" href="santo.css">
+    <link rel="icon" type="image" href="pics/logo1.jpg" />
+</head>
+    
+<body>
+   <div class="parallax">
+      
+         <ul>
+             <li class="active"><a href="santo.html">HOME</a></li>
+             <li><a href="about.html">ABOUT</a></li>
+             <li><a href="services.html">SERVICES</a></li>
+             <li><a href="bookings.html">BOOKINGS</a></li>
+         </ul>
+     
+        
+     <div class="header">
+            <img src="pics/logo3.png" width="90" height="90">  SANTORINI
+     </div> 
+    
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    
+     <div class="cruises">
+         
+         <figure><img src="pics/7.jpg" width="400px" height="280px"><br> </figure>
+         
+         
+         <figure><img src="pics/71.jpg" width="400px" height="280px"><br> </figure>
+         
+         
+         <figure><img src="pics/73.jpg" width="400px" height="280px"><br> </figure>
+         
+         
+         <figure><img src="pics/74.jpg" width="400px" height="280px"><br> </figure>
+         
+         
+         <figure><img src="pics/75.jpg" width="400px" height="280px"><br> </figure>
+         
+         
+         <figure><img src="pics/76.jpg" width="400px" height="280px"><br> </figure>
+         
+     </div>
+       
+       
+       
+       <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    
+       
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 9</div>
+  <img src="pics/shoots/9.jpg" style="width:100%">
+  <div class="text">Movie/Photography Shoots</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 9</div>
+  <img src="pics/shoots/92.jpg" style="width:100%">
+  <div class="text">Free Helping Teams</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 9</div>
+  <img src="pics/shoots/1234.jpg" style="width:100%">
+  <div class="text">Amazing Captures</div>
+</div>
+
+    <div class="mySlides fade">
+  <div class="numbertext">4 / 9</div>
+  <img src="pics/shoots/577.jpg" style="width:100%">
+  <div class="text">Bollywood Hits</div>
+</div>
+    
+    <div class="mySlides fade">
+  <div class="numbertext">5 / 9</div>
+  <img src="pics/shoots/598.jpg" style="width:100%">
+  <div class="text">Pre-wedding shoots & honeymoon packages</div>
+</div>
+    
+    <div class="mySlides fade">
+  <div class="numbertext">6 / 9</div>
+  <img src="pics/shoots/93.jpg" style="width:100%">
+  <div class="text">Successfull Historical Shoots</div>
+</div>
+    
+    <div class="mySlides fade">
+  <div class="numbertext">7 / 9</div>
+  <img src="pics/shoots/97.jpg" style="width:100%">
+  <div class="text">Free Make-up Artists</div>
+</div>
+    
+    <div class="mySlides fade">
+  <div class="numbertext">8 / 9</div>
+  <img src="pics/shoots/99.jpg" style="width:100%">
+  <div class="text">Shoots With Canon</div>
+</div>
+    
+    <div class="mySlides fade">
+  <div class="numbertext">9 / 9</div>
+  <img src="pics/shoots/9998.jpg" style="width:100%">
+  <div class="text">World's Best Directers</div>
+</div>
+
+
+
+
+    
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+     <span class="dot" onclick="currentSlide(4)"></span>
+     <span class="dot" onclick="currentSlide(5)"></span>
+     <span class="dot" onclick="currentSlide(6)"></span>
+     <span class="dot" onclick="currentSlide(7)"></span>
+     <span class="dot" onclick="currentSlide(8)"></span>
+     <span class="dot" onclick="currentSlide(9)"></span>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+       
+       <br><br><br><br><br><br>
+       
+     <div class="map">
+           <figure>
+               <figcaption>MAP VIEW</figcaption>
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d102754.72704642733!2d25.35059079209915!3d36.40713340091283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1499ce86adfd9ff7%3A0xb2a761f740d68afc!2sSantorini!5e0!3m2!1sen!2sin!4v1543336962666" width="1519" height="550" frameborder="0" style="border:0" allowfullscreen></iframe></figure>
+      </div>
+       
+       
+    </div>
+</body>
+</html>
